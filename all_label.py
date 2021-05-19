@@ -18,5 +18,5 @@ with open('E:\\ccc\\all\\label_img.txt', 'r', encoding='utf8')as fp_label:
 label_all.close()
 
 
-
+# 这个程序可以挑选标签，11个标签可以选择 [0]][:]后面括号里的可以进行选择
 
