@@ -16,10 +16,10 @@ with open('E:\\shujuji\\Data_ICRA18\\test_data.json', 'r', encoding='utf8')as fp
 
 print(test)
 
-train_label = open('E:\\empty\\big_resolution\\train_label.txt', 'w', encoding='utf8')
-test_label = open('E:\\empty\\big_resolution\\test_label.txt', 'w', encoding='utf8')
+train_label = open('E:\\ccc\\all_chong\\train\\train_label.txt', 'w', encoding='utf8')
+test_label = open('E:\\ccc\\all_chong\\test\\test_label.txt', 'w', encoding='utf8')
 
-with open('E:\\empty\\big_resolution\\label.txt', 'r', encoding='utf8')as fp_label:
+with open('E:\\ccc\\all_chong\\new\\label.txt', 'r', encoding='utf8')as fp_label:
     for item in fp_label.readlines():
         img_index = str(item).split('_')[0]
         if train.__contains__(int(img_index)):
@@ -32,3 +32,4 @@ with open('E:\\empty\\big_resolution\\label.txt', 'r', encoding='utf8')as fp_lab
 train_label.close()
 test_label.close()
 
+# 写出test和train的标签文件
