@@ -58,7 +58,7 @@ def main():
     fig = plot_embedding(result, label,
                          't-SNE embedding of the digits (time %.2fs)'
                          % (time() - t0))
-    plt.savefig('data distribution10.png')
+    plt.savefig('data distribution new11.png')
     plt.show()
 
 if __name__ == '__main__':
